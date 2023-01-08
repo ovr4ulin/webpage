@@ -1,0 +1,20 @@
+.card-images{
+  display:flex;
+
+}
+.row  img{
+  width: 100%;
+}
+
+.col-lg-2 > img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+h1{
+  color: var(--white);
+}
+.title{
+  color: var(--white);
+  text-align: center;
+}

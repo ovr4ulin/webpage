@@ -1,0 +1,309 @@
+#content9 p,
+#content9 h3,
+#content9 h1,
+#content9 h2,
+#content9 b {
+  color: white;
+}
+#content9{
+  margin-top: 10rem;
+}
+#content10{
+  margin-top: 5rem;
+}
+#content9 #seccion1 .titulo {
+  margin-top: 0rem;
+  text-align: center;
+  font-size:2.5rem;
+  font-weight: bolder;
+}
+
+#seccion2 {
+  margin-top: 2rem;
+}
+
+#content9 #seccion2 .caracteristicasTitulo {
+  color: #FFF;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#content9 #seccion2 .caracteristicasTexto {
+  color: #FFF;
+  margin-top: 2rem;
+}
+
+#content9 #seccion2 .caracteristicaLineTop, #content9 #seccion3 .caracteristicaLineTop {
+  background-color: blue;
+  height: 2px;
+  width: 170px;
+  margin: 0 auto 1rem auto;
+}
+
+#content9 #seccion3 .lineBlue {
+  margin: 4rem auto 1rem auto;
+  background-color: blue;
+  height: 5px;
+  width: 170px;
+}
+
+#content9 #seccion3 .envios {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+body {
+  height: 100vh;
+  background-color: #151515;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* .container {
+  height: 100%;
+} */
+
+#content9 .comentario_titulo{
+  color: #FFF;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#content10 .comentario_titulo {
+  color: #FFF;
+    font-size: 2.6rem;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.owl-carousel {
+  width: 103% !important;
+}
+
+#content10 .cardComentarios {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  background-color: #1a1a1a;
+  position: relative;
+  border-radius: 30px;
+  width: 100%;
+  background-image: url('../img/fondo.jpg');
+  background-size: 100% 100%;
+  height: 25rem;
+}
+
+#content10 .cardComentarios_imagen {
+  width: 65% !important;
+  display: block !important;
+  position: absolute;
+  top: -100px;
+  left: 18%;
+}
+
+#content10 .cardComentarios_item {
+  width: 100%;
+}
+
+#content10 .cardComentarios_item--positionBottom {
+  position: absolute;
+  bottom: 0;
+}
+
+#content10 .cardComentarios_item--5rem {
+  height: 5rem;
+}
+
+#content10 .cardComentarios_item--2rem {
+  margin-top: 2rem;
+}
+
+#content10 .cardComentarios_estrellas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fc661c;
+  font-size: 1.4rem;
+}
+
+#content10 .cardComentarios_estrellas--espacio {
+  margin: 0 10px;
+}
+
+#content10 .cardComentarios_comentario {
+  padding: 0 15px;
+}
+
+#content10 .cardComentarios_comentario--texto {
+  color: white;
+  text-align: center;
+}
+
+#content10 .cardComentarios_instagram {
+  padding: 0 15px;
+}
+
+#content10 .cardComentarios_instagram--texto {
+  color: white;
+  float: right;
+
+}
+
+.font-4rem {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#content12 .image-content {
+  height: 100%;
+}
+
+.line-blue {
+  margin: 19px 20px 0px 0px;
+  height: 3px;
+  width: 12%;
+  background-color: var(--blue);
+}
+
+#content12 .line-blue_comunidad {
+  margin: 19px 20px 0px 0px;
+  height: 2px;
+  width: 12%;
+  background-color: var(--blue);
+}
+
+#content12 .line-blue_comunidad_mobile {
+  margin: 10px auto;
+  height: 2px;
+  width: 40%;
+  background-color: var(--blue);
+}
+
+#content12 .community_image {
+  width: 100%;
+  height: unset;
+}
+
+#content12 .centro-logros {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 1.2rem;
+
+}
+
+#content11 .title_confian {
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+#content12 .title_comunidad {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+
+#content11 .imagen_confian {
+  display: block;
+  width: 60%;
+  margin: 0px auto 0px auto;
+}
+
+#content11 .imagen_confian_2 {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#content11 .card_confian {
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  padding: 30px 0;
+}
+
+#content12 .somos_trimaker {
+  margin-top: 6rem;
+  margin-left: -1rem;
+}
+
+@media (min-width: 425px) {
+  #content9 #seccion2 .caracteristicasTitulo {
+    text-align: center;
+  }
+
+  #content11 .title_confian {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .font-4rem {
+    font-size: 4rem;
+    text-align: unset;
+  }
+
+  #content12 .centro-logros {
+    text-align: unset;
+    margin: unset;
+  }
+
+  #content12 .community_image {
+    width: 100%;
+    margin-left: 139px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #content11 .title_confian {
+    font-size: 2rem;
+    padding: 0 50px;
+  }
+
+  #content12 .title_comunidad {
+    font-size: 2rem;
+  }
+
+  #content12 .community_image {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  #content12 .somos_trimaker {
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #content11 .imagen_confian {
+    width: 100%;
+  }
+
+  .lineBlue {
+    margin: 1rem auto 1rem auto;
+  }
+
+  #content9 #seccion2 .caracteristicasTitulo {
+    text-align: unset;
+  }
+
+  #content9 #seccion2 .caracteristicaLineTop, #content9 #seccion3 .caracteristicaLineTop{
+    height: 2px;
+    width: 40%;
+    margin: 0 0 1rem 0;
+  }
+  #content10 .comentario_titulo {
+    margin-bottom: 3rem;
+  }
+}

@@ -1,0 +1,258 @@
+
+a {
+  transition: all .3s ease-in-out;
+}
+.widget {
+  margin-bottom: 60px;
+  font-size: .8125rem;
+}
+
+.widget .widget-title {
+  margin-bottom: 24px;
+}
+
+.widget .widget-title > h6 {
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-weight: 700;
+  font-size: .6875rem;
+  margin: 0;
+}
+
+.widget a {
+  color: #788487;
+}
+
+.widget a:hover,
+.widget a:focus {
+  color: #505cfd;
+}
+
+.widget ul {
+  margin-bottom: 0;
+}
+.widget-search {
+  padding: 0;
+  border: 0;
+}
+
+.widget-search form {
+  position: relative;
+}
+
+.widget-search .search-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  height: 100%;
+  right: .875rem;
+  transform: translateY(-50%);
+  transition: all .3s ease-out;
+  color: #ddd;
+}
+
+.widget-search .search-button:focus,
+.widget-search .search-button.focus,
+.widget-search .search-button.active.focus,
+.widget-search .search-button.active:focus,
+.widget-search .search-button:active.focus,
+.widget-search .search-button:active:focus {
+  outline: 0;
+}
+
+.widget-search .search-button:hover {
+  color: #505cfd;
+}
+
+.widget-categories ul li,
+.widget-recent-entries ul li,
+.widget-recent-entries-custom ul li {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.widget-categories ul li:first-child,
+.widget-recent-entries ul li:first-child,
+.widget-recent-entries-custom ul li:first-child {
+  padding-top: 0;
+}
+
+.widget-categories ul li:last-child,
+.widget-recent-entries ul li:last-child,
+.widget-recent-entries-custom ul li:last-child {
+  border: 0;
+  padding-bottom: 0;
+}
+
+.widget-recent-entries-custom ul li {
+  padding: 12px 0;
+}
+
+.widget-recent-entries-custom ul li {
+  display: table;
+}
+
+.widget-recent-entries-custom ul li:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.widget-recent-entries-custom .wi,
+.widget-recent-entries-custom .wb {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.widget-recent-entries-custom .wi {
+  float: left;
+  width: 64px;
+}
+
+.widget-recent-entries-custom .wi img {
+  border-radius: .1875rem;
+  width: 100%;
+}
+
+.widget-recent-entries-custom .wb {
+  padding-left: 16px;
+  width: 100%;
+}
+a:hover,
+a:focus {
+  outline: 0;
+}
+a {
+  color: #505cfd;
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer {
+  background: #222;
+}
+
+.footer h1,
+.footer .h1,
+.footer h2,
+.footer .h2,
+.footer h3,
+.footer .h3,
+.footer h4,
+.footer .h4,
+.footer h5,
+.footer .h5,
+.footer h6,
+.footer .h6 {
+  color: #fff;
+}
+p{
+  color: #788487;
+}
+.footer a,
+.footer .social-icons > li > a {
+  color: #cecece;
+}
+.footer a, .footer .social-icons > li > a {
+  color: #cecece;
+}
+.footer a:hover,
+.footer a:focus,
+.footer .social-icons > li > a:hover,
+.footer .social-icons > li > a:focus {
+  color: #f4f4f4;
+}
+
+
+.footer .widget-categories ul li,
+.footer .widget-recent-entries ul li,
+.footer .widget-recent-entries-custom ul li {
+  border-color: #2f2f2f;
+}
+
+.footer .form-control {
+  background: #1d1d1d;
+  border-color: #1c1c1c;
+}
+.footer-widgets {
+  padding: 90px 0 30px;
+}
+
+.footer-widgets + .footer-bar {
+  border-top: 1px solid #2c2c2c;
+}
+
+.footer-bar {
+  text-align: center;
+  font-size: .75rem;
+  padding: 22px 0;
+}
+
+.footer-bar p {
+  margin-bottom: 0;
+}
+
+
+
+.footer .social-icons > li > a {
+  color: #cecece;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer .social-icons > li > a:hover,
+.footer .social-icons > li > a:focus {
+  color: #f4f4f4;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons > li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.social-icons > li > a {
+  font-size: .8125rem;
+  color: #222;
+}
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-icons > li > a:hover,
+.social-icons > li > a:focus {
+  color: #505cfd;
+}
+
+.social-icons.text-center > li {
+  margin: 0 10px 0 10px;
+}
+
+.social-icons.text-right > li {
+  margin: 0 0 0 20px;
+}
+.post-date {
+  font-size: .6875rem;
+  color: #a3a6a8;
+  display: block;
+  margin: 0;
+}
+.footer-widgets + .footer-bar {
+  border-top: 1px solid #2c2c2c;
+}
+
+.footer-bar {
+  text-align: center;
+  font-size: .75rem;
+  padding: 22px 0;
+}
+
+.footer-bar p {
+  margin-bottom: 0;
+}

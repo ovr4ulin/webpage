@@ -1,0 +1,729 @@
+body {
+  overflow-x: hidden;
+}
+
+#content8 {
+  margin-top: 5rem;
+  position: relative;
+}
+
+#content8 h1, #content8 h2, #content8 h3, #content8 h4, #content8 h5 {
+  color: var(--white);
+}
+
+#content8 .texto_imgs {
+  text-align: center;
+}
+
+#content8 p {
+  color: var(--white);
+}
+
+#content8 .p0 {
+  padding: 0;
+}
+
+#content8 .title {
+  text-align: center;
+}
+
+#content8 .position_center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+
+
+#content8 .nebula_card, #content7 .nebula_card {
+  width: 100%;
+  position: absolute;
+  top: 6rem;
+  height: 100%;
+}
+
+#content8 .nebula_plus_img {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#content8 .nebula__img, #content7 .nebula__img {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+#content8 .nebula_logo, #content7 .nebula_logo {
+  width: 30%;
+  margin-top: -2rem;
+}
+
+#content8 .text_nebula, #content7 .text_nebula {
+  color: var(--white);
+  text-align: center;
+  margin-top: 1rem;
+
+}
+
+#content8 .especificaciones, #content7 .especificaciones {
+  font-size: 1.30rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+#content8 .list_specs {
+  list-style: none;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  color: var(--white);
+}
+
+#content8 .masDescripcion, #content7 .masDescripcion {
+  text-align: center;
+  color: white;
+  margin-bottom: 4px;
+}
+
+#content8 .price_new {
+  text-align: center;
+  letter-spacing: 8px;
+  font-family: 'TTnorms-Bold';
+  color: white;
+}
+
+#content8 .cuotas, #content7 .cuotas {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+
+#content8 .link_button, #content7 .link_button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 1rem;
+  width: 70%;
+}
+
+#content8 .buy_button {
+  background-color: var(--orange);
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+#content8 .hoja_tecnica {
+  background-color: #1a1a1a;
+  border: 2px var(--orange) solid;
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+@media (min-width:320px) {
+  #content8 {
+    margin-bottom: 4rem;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+    height: 100%;
+  }
+
+  #content8 .text_nebula, #content7 .text_nebula {
+    font-size: 14px;
+  }
+
+  #content8 .price_new {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    color: white;
+  }
+
+  #content8 .card1 {
+    margin-bottom: 6rem;
+  }
+
+  #content8 .card2 {
+    margin-bottom: 2rem;
+  }
+
+  #content8 .materiales_span {
+    margin-left: 2.4rem;
+  }
+
+  #content8 .position_start {
+    display: block;
+  }
+
+  #content8 .position-none {
+    display: flex;
+    flex-direction: unset;
+    justify-content: unset;
+    align-items: unset;
+  }
+}
+
+@media (min-width: 425px) {
+  #content8 .card1 {
+    margin-bottom: 4rem;
+  }
+
+  #content8 .card2 {
+    margin-bottom: 4rem;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+    height: unset;
+  }
+
+  #content8 .nebula__img, #content7 .nebula__img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #content8 .nebula_plus_img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #content8 .nebula_logo, #content7 .nebula_logo {
+    width: 30%;
+    margin-top: -2rem;
+  }
+
+  #content8 .text_nebula, #content7 .text_nebula {
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+
+  #content8 .especificaciones, #content7 .especificaciones {
+    font-size: 1.30rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  #content8 .list_specs {
+    list-style: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+  }
+
+  #content8 .masDescripcion, #content7 .masDescripcion {
+    text-align: center;
+    color: white;
+    margin-bottom: 4px;
+  }
+
+  #content8 .price_new {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+  }
+
+  #content8 .cuotas, #content7 .cuotas {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+
+
+  #content8 .link_button, #content7 .link_button {
+    margin-top: 1rem;
+    width: 60%;
+    /* margin-right: unset; */
+  }
+
+  #content8 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    height: -webkit-fill-available;
+  }
+
+  #content8 .position_start {
+    display: block;
+  }
+
+  #content8 .position-none {
+    display: flex;
+    flex-direction: unset;
+    justify-content: unset;
+    align-items: unset;
+  }
+}
+
+@media (min-width:500px) {
+  #content8 .card1 {
+    margin-bottom: 6rem;
+  }
+
+  #content8 .card2 {
+    margin-bottom: 6rem;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    height: -webkit-fill-available;
+  }
+
+  #content8 .position_start {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  #content8 .position_start {
+    display: block;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+    height: -webkit-fill-available;
+  }
+
+  #content8 .nebula__img, #content7 .nebula__img {
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+
+  #content8 .nebula_plus_img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #content8 .nebula_logo, #content7 .nebula_logo {
+    width: 30%;
+    margin: -3rem auto 0 auto;
+    display: block;
+  }
+
+  #content8 .text_nebula, #content7 .text_nebula {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+
+  #content8 .especificaciones, #content7 .especificaciones {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  #content8 .list_specs {
+    list-style: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+  }
+
+  #content8 .masDescripcion, #content7 .masDescripcion {
+    text-align: center;
+    color: white;
+    margin-top: unset;
+    margin-bottom: 4px;
+  }
+
+  #content8 .price_new {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    margin-top: 2rem;
+  }
+
+  #content8 .cuotas, #content7 .cuotas {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+
+
+  #content8 .link_button, #content7 .link_button {
+    margin-top: 1rem;
+    width: 60%;
+    /* margin-right: unset; */
+  }
+
+  #content8 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #content8 .nebula_card, #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    top: 5rem;
+  }
+
+  #content8 .nebula_plus_img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #content8 .text_nebula_margin {
+    margin-bottom: 2rem;
+  }
+
+  #content8 .nebula_logo, #content7 .nebula_logo {
+    width: 30%;
+    margin: -3rem auto 0 auto;
+    display: block;
+  }
+
+  #content8 .text_nebula, #content7 .text_nebula {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+
+  #content8 .especificaciones, #content7 .especificaciones {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  #content8 .list_specs {
+    list-style: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+  }
+
+  #content8 .masDescripcion, #content7 .masDescripcion {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  #content8 .price_new {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    margin-top: 1rem;
+  }
+
+  #content8 .price_new_margin {
+    margin-top: 2.7rem;
+  }
+
+  #content8 .cuotas, #content7 .cuotas {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+
+
+  #content8 .link_button, #content7 .link_button {
+    margin-top: 1rem;
+    width: 90%;
+    /* margin-right: unset; */
+  }
+
+  #content8 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .position_start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #content {
+    margin-bottom: 4rem;
+  }
+
+  #content8 .nebula_card, #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    top: unset;
+    height: 112%;
+  }
+
+  #content8 .nebula_plus_img {
+    top: 5rem;
+    position: absolute;
+    width: 100%;
+    margin: unset;
+    display: block;
+    right: 3rem;
+  }
+
+  #content8 .nebula__img, #content7 .nebula__img {
+    top: 5rem;
+    position: absolute;
+    width: 100%;
+    margin: unset;
+    display: block;
+    right: 3rem;
+  }
+
+  #content8 .nebula_logo, #content7 .nebula_logo {
+    width: 30%;
+    margin: 3rem 8rem 0px auto;
+    display: block;
+  }
+
+  /* .position_end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  } */
+
+  #content8 .text_nebula, #content7 .text_nebula {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+
+  #content8 .title {
+    text-align: unset;
+    font-size: 2rem;
+  }
+
+
+  #content8 .especificaciones, #content7 .especificaciones {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  #content8 .list_specs {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    color: white;
+    margin-right: 7rem;
+  }
+
+  #content8 .list_specs_card2 {
+    margin-right: 4.7rem;
+  }
+
+
+
+  #content8 .masDescripcion, #content7 .masDescripcion {
+    text-align: left;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+
+    font-size: 14px;
+  }
+
+  #content8 .card1 {
+    position: relative;
+    margin-bottom: 0rem;
+  }
+
+  #content8 .card2 {
+    position: relative;
+    margin-bottom: 0rem;
+  }
+
+  #content8 .price_new {
+    text-align: left;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    margin-top: 2rem;
+  }
+
+  #content8 .price_new_margin {
+    margin-top: 3.5rem;
+  }
+
+  #content8 .cuotas, #content7 .cuotas {
+    text-align: left;
+    margin: 0;
+    color: white;
+    /*     margin-left: 7rem; */
+  }
+
+
+  #content8 .link_button, #content7 .link_button {
+    margin-top: 1rem;
+    width: 100%;
+    margin-right: unset;
+    /*  margin-left: 2rem; */
+  }
+
+  #content8 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content8 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #content8 .nebula_card, #content7 .nebula_card {
+    top: 0rem;
+    right: 0;
+    /*     height: 100%; */
+  }
+
+  #content8 .nebula_plus_img {
+    top: 6rem;
+    right: 8rem;
+    /* width: 50%;
+    right: 30rem; */
+  }
+
+  #content8 .nebula_logo, #content7 .nebula_logo {
+    width: 30%;
+    margin: 2rem 8rem 0px auto;
+    display: block;
+  }
+
+  #content8 .nebula_logo_2 {
+    width: 38%;
+  }
+
+  #content8 .nebula_logo_top {
+    margin-top: 3.5rem;
+  }
+
+  #content8 .descripcion {
+    margin-top: 15rem;
+    margin-left: 8rem;
+  }
+
+  #content8 .descripcion>p {
+    font-size: 1.30rem;
+    margin-bottom: 3px;
+  }
+
+  #content8 .price_old {
+    margin-left: 8rem;
+    font-size: 2rem;
+  }
+
+  #content8 .price_descripcion {
+    margin-left: 11rem;
+    font-size: 1.30rem;
+  }
+
+  #content8 .price_new {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+  }
+
+  #content8 .cuotas, #content7 .cuotas {
+    margin-left: 0rem;
+    font-size: 1.1rem;
+  }
+
+  #content8 .nebula__img, #content7 .nebula__img {
+    top: 5rem;
+    position: absolute;
+    width: 100%;
+    margin: unset;
+    display: block;
+    right: 7rem;
+  }
+
+  #content8 .link_button, #content7 .link_button {
+    width: 80%;
+    margin: 1rem auto 0 0;
+  }
+
+  #content8 .buy_button {
+    font-size: 1rem;
+  }
+
+  #content8 .hoja_tecnica {
+    font-size: 1rem;
+  }
+
+  #content8 .especificaciones, #content7 .especificaciones {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

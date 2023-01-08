@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    background-color: #151515;
+}
+.container{
+    height: 100%;
+}
+.comentario_titulo{
+    color: #FFF;
+}
+.owl-carousel{
+    width: 103% !important;
+}
+.cardComentarios {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    background-color: #1a1a1a;
+    position: relative;
+    border-radius: 30px;
+    width: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-size: 100% 100%;
+    height: 25rem;
+}
+
+.cardComentarios_imagen {
+    width: 56% !important;
+    height: 40%;
+    display: block !important;
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 80px);
+}
+
+.cardComentarios_item {
+    width: 100%;
+}
+
+.cardComentarios_item--positionBottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.cardComentarios_item--5rem {
+    height: 5rem;
+}
+
+.cardComentarios_item--2rem {
+    margin-top: 2rem;
+}
+
+.cardComentarios_estrellas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fc661c;
+    font-size: 1.4rem;
+}
+
+.cardComentarios_estrellas--espacio {
+    margin: 0 10px;
+}
+
+.cardComentarios_comentario {
+    padding: 0 15px;
+}
+
+.cardComentarios_comentario--texto {
+    color: white;
+}
+
+.cardComentarios_instagram {
+    padding: 0 15px;
+}
+
+.cardComentarios_instagram--texto {
+    color: white;
+    float: right;
+
+}

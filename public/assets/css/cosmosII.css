@@ -1,0 +1,355 @@
+body {
+  overflow-x: hidden;
+}
+
+#content6 h4,
+#content6 h1,
+#content6 h3,
+#content6 h2 {
+  color: #fff;
+}
+
+#content6 p {
+  color: #fff;
+  font-size: 13px;
+}
+
+#content6 {
+  position: relative;
+}
+
+#content6 .content_chica {
+  position: absolute;
+  height: 118%;
+  left: 0;
+}
+
+#content6 .img_cosmos {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  height: 100%;
+}
+
+
+#content6 .content_title {
+  font-size: 3.5rem;
+}
+
+/* card */
+#content6 .title_card {
+  margin: 0 auto 1rem 0;
+  text-align: center;
+  display: block;
+  letter-spacing: 7px;
+}
+
+#content6 .one_cosmos {
+  margin-right: unset;
+  margin-bottom: unset;
+}
+
+#content6 .one_cosmos {
+  text-align: center;
+  font-size: 12px;
+}
+
+#content6 .two_cosmos {
+  margin-right: unset;
+}
+
+#content6 .two_cosmos {
+  margin-top: 1rem;
+  font-size: 12px;
+  text-align: center;
+}
+
+#content6 .card_currency {
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin: 0 auto 4px auto;
+  text-align: center;
+  display: block;
+  font-family: 'TTnorms-Bold';
+}
+
+#content6 .card_cuotes {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-right: unset;
+}
+
+#content6 .buy_button {
+  background-color: var(--orange);
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+#content6 .hoja_tecnica {
+  background-color: #1a1a1a;
+  border: 2px var(--orange) solid;
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+#content6 .link_button {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 32%;
+  display: block;
+}
+
+#content6 .cosmos2_sales {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#content6 .position_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content6 .position_start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media (min-width: 320px) {
+  #content6 .link_button {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 60%;
+    display: block;
+  }
+}
+
+@media (min-width: 375px) {
+  #content6 .link_button {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 50%;
+    display: block;
+  }
+}
+
+@media (min-width: 425px) {
+  #content6 .link_button {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 40%;
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  #content {
+    margin-bottom: 7rem;
+  }
+
+  #content6 .title_card {
+    /* margin-right: 7rem; */
+    letter-spacing: 8px;
+    text-align: center;
+  }
+
+  #content6 .img_cosmos {
+    top: 7rem;
+  }
+
+  #content6 .cosmos2_sales {
+    width: 35%;
+  }
+
+  #content6 .one_cosmos {
+    font-size: 15px;
+  }
+
+  #content6  {
+    margin-top: 5rem;
+    font-size: 15px;
+  }
+
+  #content6 .card_currency {
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #content6 .card_cuotes {
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #content6 .link_button {
+    display: block;
+    margin: 5px auto;
+    width: 40%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #content6 .content_title {
+    font-size: 3.5rem;
+  }
+
+  /* card */
+  #content6 .title_card {
+    margin-top: 8rem;
+    /* margin-right: 7rem; */
+    letter-spacing: 8px;
+    text-align: center;
+  }
+
+  #content6 .one_cosmos {
+    margin: 0 auto;
+  }
+
+  #content6 .two_cosmos {
+    margin-right: unset;
+  }
+
+  #content6 .card_currency {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-family: 'TTnorms-Bold';
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  #content6 .card_cuotes {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #content6 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content6 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content6 .link_button {
+    width: 40%;
+    display: block;
+    margin: 5px auto;
+  }
+
+  #content6 .cosmos2_sales {
+    position: absolute;
+    top: 12rem;
+    width: 100%;
+    right: 1.5rem;
+  }
+
+  #content6 .img_cosmos {
+    object-fit: contain;
+    top: 4rem;
+    height: 102%;
+  }
+
+  #content6 .content_chica {
+    position: absolute;
+    height: 107%;
+    left: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #content6 .content_chica {
+    position: absolute;
+    height: 107%;
+    left: 0;
+  }
+
+  #content6 .content_title {
+    font-size: 3.5rem;
+  }
+
+  /* card */
+  #content6 .title_card {
+    margin-top: 8rem;
+    letter-spacing: 8px;
+    text-align: center;
+  }
+
+
+
+
+
+  #content6 .buy_button {
+    background-color: var(--orange);
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content6 .hoja_tecnica {
+    background-color: #1a1a1a;
+    border: 2px var(--orange) solid;
+    border-radius: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+  #content6 .link_button {
+    margin-top: 1rem;
+    width: 40%;
+    display: block;
+  }
+
+  #content6 .cosmos2_sales {
+    position: absolute;
+    top: 11rem;
+    width: 100%;
+    right: 1.5rem;
+  }
+}
+
+
+@media (min-width:1300px) {
+  #content6 .cosmos2_sales {
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    right: unset;
+  }
+
+  #content6 .link_button {
+    margin-top: 1rem;
+    width: 23%;
+    display: block;
+  }
+}

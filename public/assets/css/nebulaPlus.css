@@ -1,0 +1,497 @@
+body {
+  overflow-x: hidden;
+}
+
+#content7 {
+  position: relative;
+  margin-top: 4rem;
+}
+
+#content7 .texto_imgs {
+  text-align: center;
+}
+
+#content7 .p0 {
+  padding: 0;
+}
+
+#content7 .title {
+  letter-spacing: 2px;
+  text-align: center;
+}
+/* 
+#content7 .nebula_card {
+  width: 95%;
+  position: absolute;
+  top: 2rem;
+  height: unset;
+} */
+
+#content7 .nebula_plus_img {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* #content7 .nebula_logo {
+  width: 60%;
+  position: absolute;
+  top: 13em;
+} */
+
+/* #content7 .especificaciones {
+  font-size: 1.30rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+ */
+#content7 .list_specs {
+  list-style: none;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  color: white;
+}
+
+#content7 .price_old {
+  margin-top: 10px;
+  text-align: unset;
+  text-decoration: line-through;
+  text-decoration-color: var(--orange);
+  text-decoration-thickness: 4px;
+  letter-spacing: 8px;
+  font-family: 'TTnorms-Bold';
+}
+
+#content7 .price_old:before,
+#content7 .price_old:after {
+  content: "\00a0";
+}
+
+#content7 .price_new {
+  text-align: center;
+  letter-spacing: 8px;
+  font-family: 'TTnorms-Bold';
+}
+
+/* #content7 .cuotas {
+  text-align: center;
+  margin: 0;
+} */
+
+
+/* #content7 .link_button {
+  margin-top: 1rem;
+  width: 60%;
+  margin-right: unset;
+} */
+
+#content7 .buy_button {
+  background-color: var(--orange);
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+#content7 .hoja_tecnica {
+  background-color: #1a1a1a;
+  border: 2px var(--orange) solid;
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+}
+
+
+@media (min-width: 320px) {
+  /* #content7 .nebula_card {
+    height: 900px;
+  } */
+
+  #content7 .nebula_plus_img {
+    width: 55%;
+    margin: 0 auto;
+  }
+
+ /*  #content7 .nebula_logo {
+    width: 50%;
+    position: absolute;
+    top: 10em;
+  } */
+
+  /* #content7 .especificaciones {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 7rem;
+  } */
+
+  #content7 .list_specs {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  #content7 .price_old {
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: var(--orange);
+    text-decoration-thickness: 4px;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    font-size: 1.5rem;
+  }
+
+  #content7 .price_old:before,
+  #content7 .price_old:after {
+    content: "\00a0";
+  }
+
+  #content7 .price_new {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+  }
+}
+
+@media (min-width: 375px) {
+  /* #content7 .nebula_card {
+    height: 960px;
+  } */
+
+  #content7 .nebula_plus_img {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+ /*  #content7 .nebula_logo {
+    width: 60%;
+    position: absolute;
+    top: 11em;
+  } */
+
+  /* #content7 .especificaciones {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 6rem;
+  } */
+}
+
+@media (min-width: 425px) {
+  /* #content7 .nebula_card {
+    height: 107%;
+  } */
+
+  #content7 .nebula_plus_img {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+/*   #content7 .nebula_logo {
+    width: 50%;
+    position: absolute;
+    top: 13em;
+  } */
+
+  /* #content7 .especificaciones {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+  } */
+
+  #content7 .list_specs {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #content7 .list_specs li{
+    margin-bottom: 12px;
+  }
+
+  #content7 .price_old {
+    margin-top: 5px;
+    font-size: 2rem;
+  }
+
+  #content7 .price_old:before,
+  #content7 .price_old:after {
+    content: "\00a0";
+  }
+
+  #content7 .price_new {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  /* #content7 .nebula__img{
+    display: block;
+    margin: 0 auto;
+  } */
+
+  /* #content7 .nebula_card {
+    width: 100%;
+    position: absolute;
+    height: 105%;
+    top: 2rem;
+    
+  } */
+
+  #content7 .nebula_plus_img {
+    top: 5rem;
+    position: absolute;
+    width: 50%;
+    right: 20rem;
+  }
+
+ /*  #content7 .nebula_logo {
+    position: unset;
+    width: 40%;
+    top: unset;
+    display: block;
+    right: unset;
+    margin: -4rem auto 0 auto;
+  }
+ */
+  #content7 .descripcion {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 16em;
+    margin-left: 3rem;
+  }
+
+  #content7 .price_descripcion {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  /* #content7 .cuotas {
+    text-align: center;
+    margin: 0;
+    color: white;
+  } */
+
+
+  #content7 .list_specs {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #content7 .price_old {
+    margin-top: 5px;
+    font-size: 2rem;
+  }
+
+  #content7 .price_old:before,
+  #content7 .price_old:after {
+    content: "\00a0";
+  }
+
+  #content7 .price_new {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'TTnorms-Bold';
+    margin-top: 1rem;
+  }
+
+  /* #content7 .link_button {
+    margin-top: 1rem;
+    width: 45%;
+    margin-right: unset;
+    margin-left: 1rem;
+  } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* #content7 .nebula_card {
+    width: 90%;
+    position: absolute;
+    top: 2rem;
+    height: 105%;
+    right: 0;
+  } */
+
+  #content7 .nebula_plus_img {
+    top: 8rem;
+    position: absolute;
+    width: 60%;
+    right: 25rem;
+  }
+
+  /* #content7 .nebula_logo {
+    position: absolute;
+    width: 50%;
+    top: 6rem;
+    right: 3rem;
+  } */
+
+  #content7 .descripcion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 19rem;
+    margin-left: 5rem;
+  }
+
+
+  #content7 .price_descripcion {
+    text-align: center;
+  }
+
+  #content7 .price_new {
+    margin-left: unset;
+  }
+
+  /* #content7 .cuotas {
+    margin-left: 6rem;
+  } */
+
+  /* #content7 #content7 .link_button {
+    margin-top: 1rem;
+    width: 32%;
+    margin-right: unset;
+    margin-left: 6rem;
+  } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* #content7 .nebula_card {
+    width: 90%;
+    position: absolute;
+    top: 2rem;
+    height: 105%;
+    right: 0;
+  } */
+
+  #content7 .nebula_plus_img {
+    top: 2rem;
+    position: absolute;
+    width: 60%;
+    right: 17rem;
+  }
+
+  /* #content7 .nebula_logo {
+    position: absolute;
+    width: 50%;
+    top: 6rem;
+    right: 3rem;
+  } */
+
+  #content7 .descripcion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 19rem;
+    margin-left: 5rem;
+    align-content: center;
+  }
+
+
+
+  #content7 .price_descripcion {
+    margin-left: 6rem;
+    text-align: center;
+  }
+
+  #content7 .price_new {
+    margin-left: 5rem;
+  }
+
+  /* #content7 .cuotas {
+    margin-left: 6rem;
+  } */
+/* 
+  #content7 .link_button {
+    margin-top: 1rem;
+    width: 43%;
+    margin-right: unset;
+    margin-left: 6rem;
+  } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* #content7 .nebula_card {
+    position: absolute;
+    top: 0rem;
+    object-fit: contain;
+    right: 0;
+    height: 114%;
+  } */
+
+  /* #content7 .nebula__img {
+    top: 3rem;
+    position: absolute;
+    width: 85%;
+    margin: unset;
+    display: block;
+    right: 5.8rem;
+  } */
+
+  #content7 .nebula_plus_img {
+    top: 2rem;
+    width: 50%;
+    right: 27rem;
+  }
+
+  /* #content7 .nebula_logo {
+    position: unset;
+    width: 25%;
+    margin: 2rem 13rem 0px auto;
+    display: block;
+  } */
+
+  #content7 .descripcion {
+    margin-top: 15rem;
+    margin-left: 8rem;
+  }
+
+  #content7 .descripcion>p {
+    font-size: 1.30rem;
+    margin-bottom: 3px;
+  }
+
+  #content7 .price_old {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  #content7 .price_descripcion {
+    margin-left: 11rem;
+    font-size: 1.30rem;
+  }
+
+  #content7 .price_new {
+    margin-left: unset;
+    font-size: 2rem;
+    text-align: unset;
+  }
+
+  /* #content7 .cuotas {
+    margin-left: unset;
+    text-align: unset;
+    font-size: 1rem;
+  } */
+
+  /* #content7 .link_button {
+    margin-top: 1rem;
+    width: 90%;
+    display: block;
+    text-align: unset;
+    margin-right: unset;
+    margin-left: unset;
+  } */
+
+  #content7 .buy_button {
+    font-size: 1rem;
+  }
+
+  #content7 .hoja_tecnica {
+    font-size: 1rem;
+  }
+}

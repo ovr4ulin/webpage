@@ -1,43 +1,1931 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WJ338PN');</script>
+    <!-- End Google Tag Manager -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <title>Trimaker</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/carrousel-custom.css">
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/cosmosII.css">
+  <link rel="stylesheet" href="assets/css/nebulaPlus.css">
+  <link rel="stylesheet" href="assets/css/nebula.css">
+  <link rel="stylesheet" href="assets/css/nosotros.css">
+  <link rel="stylesheet" href="assets/css/whatsapp.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+  
+
+  
+
+</head>
+
+<body>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ338PN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+  <div id="nav" class="container-fluid pl-0">
+    <nav class="navbar navbar-dark  navbar-expand-lg pl0 pr0">
+      <a class="navbar-brand offset-lg-1" href="index.html">
+        <img class="logo" src="assets/img/logo_Trimaker.png" alt="">
+        <b class="d-none d-sm-none d-md-inline d-lg-inline">trimaker</b>
+      </a>
+      <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
+        <ul class="nav navbar-nav justify-content-end align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active navItem" href="#content">INICIO</a>
+            <div class="navItem_active"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navItem" href="#content7">NÉBULA PLUS CLOUD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navItem" href="#content8">NÉBULAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navItem" href="#content6">COSMOS II </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navItem" href="#content9">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://soporte-trimaker.zendesk.com" class="nav-link navItem" href="#content10">SOPORTE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navItem" href="#content13">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <a href="https://wa.me/5491132548811" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+  <section id="content" class="container-fluid content">
+    <div class="row">
+      <div class="col-lg-4 offset-lg-1 col-xl-4">
+        <h1 class="bolder d-none d-md-block d-sm-block d-lg-block position-xl">¡DESCUBRE <br> LA NUEVA ERA <br>DE LA
+          IMPRESION 3D!</h1>
+        <h1 class="bolder title d-block  d-md-none d-sm-none d-lg-none">DESCUBRE LA NUEVA ERA DE LA IMPRESION 3D</h1>
+        <h2 class="lighter mt25 d-none d-md-block d-sm-block d-lg-block position-xl">NÉBULA PLUS</h2>
+        <h4 class="lighter position-relative d-none d-md-block d-sm-block d-lg-block position-xl">con Trimaker <div
+            class="cloudGradient">CLOUD</div>
+      </div>
+      <div class="col-lg-7 col-xl-7 d-none d-sm-block d-md-block d-lg-block">
+        <div class="positionBlock">
+          <img class="mastheadBlock_Desk" src="assets/img/masthead/Main_Masthead_Desktop_Bloque.png" alt="">
+        </div>
+      </div>
+      <div class="col-12 d-sm-none d-md-none d-lg-none">
+        <div class="d-sm-none d-md-none d-lg-none position-absolute ">
+          <a href="https://www.facebook.com/Trimaker" target="_blank">
+            <img class="redes redes_movil" src="assets/img/masthead/Facebook_Icon.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/trimaker3d/" target="_blank">
+            <img class="redes redes_movil" src="assets/img/masthead/Instagram_Icon.png" alt="">
+          </a>
+        </div>
+        <img class="mastheadBlock" src="assets/img/masthead/Main_Masthead_Mobile_Bloque-mobile.png" alt="">
+        <p class="cursoGratis d-sm-none d-md-none d-lg-none">Incluye curso gratis <br> personalizado.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-none d-sm-block d-md-block d-lg-block col-lg-2 position-redes-xl">
+        <a href="https://www.facebook.com/Trimaker" target="_blank">
+          <img class="redes" src="assets/img/masthead/Facebook_Icon.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/trimaker3d/" target="_blank">
+          <img class="redes" src="assets/img/masthead/Instagram_Icon.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-2 col-md-2 offset-lg-1 position-comprar-xl">
+        <button class="buttonBuy">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="content2" class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-5">
+        <h1 class="d-none d-sm-none d-md-block bolder title">Controla tu impresora remotamente.</h1>
+        <h1 class="d-block d-sm-block d-md-none d-lg-none d-xl-none bolder title">Controla tu impresora <br>
+          remotamente.</h1>
+
+      </div>
+      <div class="col-12 col-lg-6">
+        <p class="parrafos d-none d-sm-block d-md-none d-lg-none d-xl-none">
+          Tu nueva Nébula Plus tiene incorporado Trimaker Box.<br>
+          Un dispositivo 100% desarrollado por Trimaker que te<br>
+          permitá conectar tu impresora a Trimaker Cloud, <br>
+          nuestro sistema de control remoto. Trimaker Box es el <br>
+          puente que comunica tu impresora con tu sistema.
+          <br><br>
+          Anímate a emprender mientras disfrutas de hacer las cosas<br class="d-none d-sm-block">
+          que te apasionan. ¡Imprime futuro!
+        </p>
+        <p class="parrafos d-block d-sm-none d-md-block d-lg-none d-xl-none">
+          Tu nueva Nébula Plus tiene incorporado Trimaker Box.
+          Un dispositivo 100% desarrollado por Trimaker que te
+          permitá conectar tu impresora a Trimaker Cloud,
+          nuestro sistema de control remoto. Trimaker Box es el
+          puente que comunica tu impresora con tu sistema.
+
+          Anímate a emprender mientras disfrutas de hacer las cosas
+          que te apasionan. ¡Imprime futuro!
+        </p>
+      </div>
+    </div>
+    <div class="justify-content-center row">
+      <!-- DESKTOP -->
+      <div class="d-none d-sm-none d-md-block col-md-7 col-lg-5 col-xl-4">
+        <div class="imageCard">
+          <img class="imagen" src="assets/img/box/Card_Impresion_a_distancia.png" alt="">
+          <div class="texto">
+            <h3 class="bolder">Control <br> a distancia</h3>
+            <p>
+              Usa tu notebook o tu celular <br>
+              para controlar tu impresora <br>
+              desde cualquier parte del <br>
+              mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-sm-none d-md-block col-md-7 col-lg-5 col-xl-4">
+        <div class="imageCard">
+          <img class="imagen" src="assets/img/box/Card_TrimakerBox.png" alt="">
+          <div class="texto">
+            <h3 class="bolder">Evolución <br> constante</h3>
+            <p>
+              Conecta tu Nébula Plus a <br>
+              internet y recibe de forma <br>
+              remota actualizaciones <br>
+              constantes. Tu impresora <br>
+              evolucionará a largo del <br>
+              tiempo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-sm-none d-md-block col-md-7 col-lg-5 col-xl-4">
+        <div class="imageCard">
+          <img class="imagen" src="assets/img/box/Card_Trimaker_Cam.png" alt="">
+          <div class="texto">
+            <h3 class="bolder">Cámara <br> incorporada</h3>
+            <p>
+              Pide a tu impresora una <br>
+              "selfie" para ver el progreso <br>
+              de tu impresion 3D desde <br>
+              tu celular o notebook.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOBILE -->
+      <div class="d-block d-sm-block d-md-none col-12 col-sm-12">
+        <div class="imageCard">
+          <img class="imagen" src="assets/img/box/Phone_Panel.png" alt="">
+          <div class="texto texto_mobile texto_mobile_1">
+            <h3 class="bolder">Control <br> a distancia</h3>
+            <p>
+              Usa tu notebook o tu celular <br>
+              para controlar tu impresora <br>
+              desde cualquier parte del <br>
+              mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-block d-sm-block d-md-none col-12 col-sm-12 p-0">
+        <div class="imageCard">
+          <img class="imagen " src="assets/img/box/TrimakerBox_Panel.png" alt="">
+          <div class="texto texto_mobile texto_mobile_2">
+            <h3 class="bolder">Evolución <br> constante</h3>
+            <p>
+              Conecta tu Nébula <br class="d-block d-sm-none"> Plus a <br class="d-none d-sm-block">
+              internet y recibe de forma <br>
+              remota actualizaciones <br>
+              constantes. Tu impresora <br>
+              evolucionará a largo del <br class="d-none d-sm-block">
+              tiempo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-block d-sm-block d-md-none col-12 col-sm-12 p-0">
+        <div class="imageCard">
+          <img class="imagen" src="assets/img/box/Trimaker_Cam_Panel.png" alt="">
+          <div class="texto texto_mobile texto_mobile_3">
+            <h3 class="bolder bolder_3">Cámara <br> incorporada</h3>
+            <p>
+              Pide a tu impresora una <br>
+              "selfie" para ver el progreso <br>
+              de tu impresion 3D desde <br>
+              tu celular o notebook.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="content3" class="container-fluid">
+    <img class="content3_img d-none d-sm-none d-md-none d-lg-block" src="assets/img/piensa_en_grande/Imagen_Fondo.jpg"
+      alt="">
+    <img class="content3_img_mobile d-lg-none d-block d-sm-block d-md-block"
+      src="assets/img/piensa_en_grande/Fondo_Features_Modificado.png" alt="">
+    <div class="row justify-content-center">
+      <div class="col-lg-5 content3_texto">
+        <h3 class="d-none d-sm-none d-lg-block"><b class="content3_h3">PIENSA EN GRANDE.</b></h3>
+        <span class="line_white d-none d-sm-none d-md-none d-lg-inline-block"></span>
+        <p class="contetn3_p d-none d-sm-none d-lg-block">
+          Conecta tus impresoras en granja.<br>
+          Aumenta tu producción.<br>
+          Automatiza y reduce costos. <br>
+          Controla tus impresoras desde <br>
+          cualquier lugar del mundo.
+        </p>
+
+        <p class="contetn3_p_mobile d-block d-sm-block d-lg-none d-sm-none">
+          Conecta tus impresoras en granja.<br>
+          Aumenta tu producción.<br>
+          Automatiza y reduce costos. <br>
+          <img class="content3_ipad d-block d-sm-block d-md-block d-lg-none d-xl-none"
+            src="assets/img/piensa_en_grande/Ipad.png" alt="">
+        </p>
+        <img class="content3_rombo d-none d-sm-none d-md-none d-lg-block" src="assets/img/piensa_en_grande/Rombo.png"
+          alt="">
+        <img class="content3_ipad d-none d-sm-none d-md-none d-lg-block" src="assets/img/piensa_en_grande/Ipad.png"
+          alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="content5" class="container-fluid">
+    <div style="width: 100%;display: flex;align-items: center;justify-content: center;height: 100%;position: absolute;">
+      <img class="content5_img d-lg-block d-none" src="assets/img/cloud/Planet.png" alt="">
+    </div>
+    <img class="content5_img_rombo d-none d-lg-block" src="assets/img/cloud/Rombo.png" alt="">
+
+    <div id="content5_img" class="row d-none d-lg-flex">
+      <div class="col-lg-4 ml5rem">
+        <div class="row">
+          <div class="col-12">
+            <div class="content5_title">
+              <h2 class="content5_title_text">
+                <span class="content5_barra_naranja"></span>
+                Centraliza
+              </h2>
+            </div>
+            <div class="content5_parrafo">
+              <p class="d-none d-lg-block">
+                Ten todas tus impresoras en el mismo <br>
+                lugar, toma acciones conjuntas y contacta <br>
+                de forma rapida con soporte técnico, en <br>
+                caso necesario.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="content5_title">
+              <h2 class="content5_title_text">
+                <span class="content5_barra_naranja"></span>
+                Personaliza
+              </h2>
+            </div>
+            <div class="content5_parrafo">
+              <p class="d-none d-lg-block">
+                Dale un nombre a cada impresora 3D, <br>
+                revisa su status diario, toma decisiones y <br>
+                muchas cosas más.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="content5_title">
+              <h2 class="content5_title_text">
+                <span class="content5_barra_naranja"></span>
+                Controla
+              </h2>
+            </div>
+            <div class="content5_parrafo">
+              <p class="d-none d-lg-block">
+                Si es necesario detener una impresora de <br>
+                manera remota, podrás hacerlo sin ningún <br>
+                problema.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="content5_title">
+              <h2 class="content5_title_text">
+                <span class="content5_barra_naranja"></span>
+                Diagnostica remotamente
+              </h2>
+            </div>
+            <div class="content5_parrafo">
+              <p class="d-none d-lg-block">
+                Tu impresora 3D puede ser diagnosticada <br>
+                por nuestro equipo de expertos, estés <br>
+                donde estés, en tiempo real. Disminuye <br>
+                tiempos y costos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 d-flex">
+        <img class="content5_phone" src="assets/img/cloud/Phone.png" alt="">
+      </div>
+      <div class="col-lg-3 d-flex flex-column justify-content-end mb5rem">
+        <h2 class="content5_cloud"><b class="content5_trimaker">TRIMAKER</b> <br> CLOUD</h2>
+        <p>
+          Sistema 100% desarrollado por Trimaker que <br>
+          te permitirá llevar tu emprendimiento y tu <br>
+          impresora al siguiente nivel. Es un sistema <br>
+          dinámico que evoluciona constantemente. <br>
+          Con tu misma impresora, irás recibiendo <br>
+          periódicamente cada vez más características <br>
+          para que tu experiencia sea única. <br>
+          Te invitamos a ser parte de este camino.
+        </p>
+      </div>
+    </div>
+    <div id="content5_img" class="row d-flex d-lg-none ">
+      <div class="col-12">
+        <h2 class="content5_cloud_mobile"><b class="content5_trimaker">TRIMAKER</b> CLOUD</h2>
+        <p class="contetn5_parrafo">
+          Sistema 100% desarrollado por Trimaker que <br>
+          te permitirá llevar tu emprendimiento y tu <br>
+          impresora al siguiente nivel. Es un sistema <br>
+          dinámico que evoluciona constantemente. <br>
+          Con tu misma impresora, irás recibiendo <br>
+          periódicamente cada vez más características <br>
+          para que tu experiencia sea única. <br>
+          Te invitamos a ser parte de este camino.
+        </p>
+      </div>
+      <div class="col-5 col-sm-5 col-md-5 align-self-end">
+        <div class="col-12 p-0">
+          <div class="content5_title_mobile">
+            <h2 class="content5_title_text_mobile">
+              <span class="content5_barra_naranja_mobile"></span>
+              Centraliza
+            </h2>
+          </div>
+        </div>
+        <div class="col-12 p-0">
+          <div class="content5_title">
+            <h2 class="content5_title_text_mobile">
+              <span class="content5_barra_naranja_mobile"></span>
+              Personaliza
+            </h2>
+          </div>
+        </div>
+        <div class="col-12 p-0">
+          <div class="content5_title">
+            <h2 class="content5_title_text_mobile">
+              <span class="content5_barra_naranja_mobile"></span>
+              Controla
+            </h2>
+          </div>
+        </div>
+        <div class="col-12 p-0">
+          <div class="content5_title">
+            <h2 class="content5_title_text_mobile">
+              <span class="content5_barra_naranja_mobile"></span>
+              Diagnostica remotamente
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-7 col-sm-7 col-md-7">
+        <img class="d-lg-none d-block content5_img_mobile" src="assets/img/cloud/Planet.png" alt="">
+        <img class="content5_phone_mobile" src="assets/img/cloud/Phone.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="content4" class="container-fluid  d-lg-block">
+    <img class="content4_img d-none d-sm-none d-md-none d-lg-block "
+      src="assets/img/trimaker_cam/Trimaker_Cam_Fondo.jpg" alt="">
+    <div id="contenido_img" class="row justify-content-center">
+      <div class="offset-lg-1 col-lg-5">
+        <h2 class="content4_title content4_texto">TU NÉBULA PLUS INCLUYE CÁMARA</h2>
+        <p class="d-none d-sm-none d-md-none d-lg-block">
+          Toma fotos desde cualquier parte del mundo y supervisa tus impresiones de <br>
+          manera remota. Finaliza en tiempo y forma tus trabajos, <br>
+          mientras continúas con otras actividades.
+          <br>
+          <br>
+          Y eso no es todo. Tu impresora cuenta con FLASH, para que sigas trabajando <br>
+          por la noche.
+        </p>
+        <p class="content4_parrafo d-block d-sm-block d-md-block d-lg-none">
+          Toma fotos desde cualquier parte del mundo <br>
+          y supervisa tus impresiones de manera remota. <br>
+          Esto te permite finalizar en tiempo y forma tus <br>
+          trabajos, mientras continúas con otras actividades. <br>
+          <br>
+          Y eso no es todo. Tu impresora cuenta con FLASH,<br>
+          para que sigas trabajando por la noche.
+        </p>
+      </div>
+      <img class="d-lg-none d-md-block d-block d-sm-block" style="width:100% ;"
+        src="assets/img/trimaker_cam/Web_Design_Mobile_Trimaker_Cam.png" alt="">
+    </div>
+  </section>
+
+
+  <section id="content7" class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="title mb-lg-5 mt-lg-5">¿Y SI TE ANIMAS <br class="d-block d-sm-block d-md-block d-lg-none"> A EMPRENDER HOY?
+        </h2>
+      </div>
+      <!-- MOBILE -->
+      <div class="col-12 d-sm-none d-md-none p-0">
+        <img class="nebula_card" src="assets/img/nebulaPlus/Panel_Nebula_Plus.png" alt="">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center flex-column">
+            <img class="nebula_plus_img" src="assets/img/nebulaPlus/Nebula_Plus_Cloud.png" alt="">
+            <img class="nebula_logo" src="assets/img/nebulaPlus/Logo_Nebula_Plus.png" alt="">
+          </div>
+          <div class="col-12">
+            <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+          </div>
+          <div class="col-12">
+            <ul class="list_specs">
+              <li>
+                <b>Trimaker Box</b> <br>
+                (Permite acceso a Trimaker Cloud)
+              </li>
+              <li>
+                <b>Cámara incorporada</b>
+              </li>
+              <li>
+                Conjunto extursor directo <br> metálico con Racor
+              </li>
+              <li>
+                Fan 5015
+              </li>
+              <li>
+                Cama magnética
+              </li>
+              <li>
+                Sensor de fin de filamento
+              </li>
+              <li>
+                Nivelación automática
+              </li>
+              <li>
+                Drivers silenciosos
+              </li>
+              <li>
+                6 meses de garantía
+              </li>
+              <li>
+                Curso gratis personalizado
+              </li>
+              <li>
+                <b>Volumen de impresión:</b> 23x23x26cm
+              </li>
+              <li>
+                <b>Materiales:</b> PLA/PETG/FLEX/ABS
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <h3 class="price_new">$134.900</h3>
+            <p class="cuotas">Precio efectivo</p>
+            <br>
+            <p class="cuotas">Precio oficial: $144.343</p>
+            <p class="cuotas">Ahora 12: 12 cuotas de $18.404</p>
+            <p class="cuotas">Ahora 18: 18 cuotas de $16.038</p>
+            <p class="cuotas">Ahora 24: 24 cuotas de $13.833</p>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="#content13" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="./assets/datasheets/nebula_plus_cloud_specs.pdf" download="Hoja técnica Nebula Plus Cloud.pdf" class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- IMAGENES -->
+      <div
+        class="col-md-12 col-sm-12 offset-lg-1 col-lg-4 col-xl-5 offset-xl-1 d-none d-sm-block d-md-block d-lg-block d-xl-flex justify-content-center flex-column">
+        <div class="row">
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Trimaker Box <br>
+              permite acceso <br>
+              a Trimaker Cloud
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Cámara <br>
+              integrada
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Conjunto extrusor <br>
+              directo metálico <br>
+              con Racor
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Fan 5015
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Cama <br>
+              magnética
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Sensor de <br>
+              fin de filamento
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Nivelación <br>
+              automática
+            </p>
+          </div>
+          <div class="col-3 col-lg-6 col-xl-3 p0">
+            <img style="width: 100%;" src="assets/img/nebulaPlus/Pin_Trimaker_Box.png" alt="">
+            <p class="texto_imgs">
+              Drivers <br>
+              silenciosos
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card2 d-none d-sm-block d-md-block d-lg-block col-sm-12 col-md-6 offset-md-3 col-lg-5 offset-lg-1">
+        <div class="row">
+          <img class="nebula_card d-block d-sm-block d-md-block d-lg-none"
+            src="assets/img/nebula/Panel_Nebula_Sales.png" alt="">
+          <img class="nebula_card d-none d-sm-none d-md-none d-lg-block" src="assets/img/nebula/Specs_Panel_Sales.png"
+            alt="">
+          <div class="col-12  col-lg-5 col-xl-7 position_start position-none d-flex ">
+            <img class="nebula__img" src="assets/img/nebulaPlus/Nebula_Plus_Cloud.png" alt="">
+          </div>
+          <div class="col-12 d-flex align-items-center flex-column">
+            <img class="nebula_logo" src="assets/img/nebulaPlus/Logo_Nebula_Plus.png" alt="">
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="text_nebula text_nebula_margin">
+              Nébula Plus Cloud es una impresora única desde el unboxing,<br>
+              para llevar tu emprendimiento al siguiente nivel.<br>
+              Cuenta con control remoto, Wifi, cámara<br>
+              y manejo de granja desde cualquier parte del mundo.<br>
+              Una impresora inteligente ,<br> 
+              que evoluciona en el tiempo para que tengas<br> 
+              acceso de forma gratuita a cada vez más mejoras.<br>
+            </p>
+          </div>
+          <div class="col-12 d-block d-lg-none">
+            <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8 d-lg-none">
+            <ul class="list_specs list_specs_card2">
+              <li>
+                Extrusión directa
+              </li>
+              <li>
+                Cama de vidrio
+              </li>
+              <li>
+                Robustez estructural
+              </li>
+              <li>
+                Tuerca antibacklash en eje Z
+              </li>
+              <li>
+                6 meses de garantía
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="masDescripcion"><b>Volumen de impresión:</b> 23x23x26cm</p>
+            <p class="masDescripcion"><b>Materiales: </b>PLA/PETG/FLEX/HIPS</p>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <h3 class="price_new price_new_margin">$134.900</h3>
+            <p class="cuotas">Precio efectivo</p>
+            <br>
+            <p class="cuotas">Precio oficial: $144.343</p>
+            <p class="cuotas">Ahora 12: 12 cuotas de $18.404</p>
+            <p class="cuotas">Ahora 18: 18 cuotas de $16.038</p>
+            <p class="cuotas">Ahora 24: 24 cuotas de $13.833</p>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="#content13" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="./assets/datasheets/nebula_plus_cloud_specs.pdf" download="Hoja técnica Nebula Plus Cloud.pdf" class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="./assets/brochures/Brochure_Nebula_Plus_Cloud.pdf" target="_blank" download="Brochure_Nebula_Plus_Cloud.pdf"
+              class="link_button">
+              <button class="hoja_tecnica btn">BROCHURE</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col-12 d-sm-none d-md-none d-lg-block">
+        <img class="nebula_card" src="assets/img/nebulaPlus/Panel_Nebula_Plus.png" alt="">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center flex-column">
+            <img class="nebula_plus_img" src="assets/img/nebulaPlus/Nebula_Plus_Cloud.png" alt="">
+            <img class="nebula_logo" src="assets/img/nebulaPlus/Logo_Nebula_Plus.png" alt="">
+          </div>
+          <div class="col-12">
+            <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+          </div>
+          <div class="col-12">
+            <ul class="list_specs">
+              <li>
+                <b>Trimaker Box</b> <br>
+                (Permite acceso a Trimaker Cloud)
+              </li>
+              <li>
+                <b>Cámara incorporada</b>
+              </li>
+              <li>
+                Conjunto extursor directo <br> metálico con Racor
+              </li>
+              <li>
+                Fan 5015
+              </li>
+              <li>
+                Cama magnética
+              </li>
+              <li>
+                Sensor de fin de filamento
+              </li>
+              <li>
+                Nivelación automática
+              </li>
+              <li>
+                Drivers silenciosos
+              </li>
+              <li>
+                6 meses de garantia
+              </li>
+              <li>
+                Curso gratis personalizado
+              </li>
+              <li>
+                <b>Volumen de impresión:</b>23x23x26cm
+              </li>
+              <li>
+                <b>Materiales:</b> PLA/PETG/FLEX/ABS
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <h2 class="price_old">$75.499</h2>
+          </div>
+          <div class="col-12">
+            <p class="text-center">Precio especial de lanzamiento</p>
+            <h3 class="price_new">$69.900</h3>
+            <p class="cuotas">Ahora 12: 12 cuotas de 15.573$</p>
+            <p class="cuotas">Ahora 18: 18 cuotas de 10.631$</p>
+            <p class="cuotas">Ahora 24: 24 cuotas de 8.410$</p>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="#" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="#" class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <section id="content8" class="container-fluid">
+    <div class="row">
+      <div class="card1 col-12 col-sm-12 col-md-6 col-lg-5 offset-lg-1">
+        <div class="row">
+          <img class="nebula_card d-block d-sm-block d-md-block d-lg-none"
+            src="assets/img/nebula/Panel_Nebula_Sales.png" alt="">
+          <img class="nebula_card d-none d-sm-none d-md-none d-lg-block" src="assets/img/nebula/Specs_Panel_Sales.png"
+            alt="">
+          <div class="col-12 col-lg-5 col-xl-7 d-flex">
+            <img class="nebula_plus_img" src="assets/img/nebula/Nebula_Venta.png" alt="">
+          </div>
+          <div class="col-12 d-flex align-items-center flex-column ">
+            <img class="nebula_logo nebula_logo_top" src="assets/img/nebula/Logo_Nebula_Plus_Regular.png" alt="">
+          </div>
+
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8 position_end ">
+            <p class="text_nebula">
+              Ideal para emprendedores que<br>
+              buscan un diferencial y un equipo <br>
+              para llevar sus ideas a donde jamás <br>
+              imaginaron. Apostando a un producto <br>
+              con un mayor grado de automatización.
+            </p>
+          </div>
+          <div class="col-12 d-block d-lg-none">
+            <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <ul class="list_specs">
+              <li>
+                Extrusión directa
+              </li>
+              <li>
+                Drivers silenciosos
+              </li>
+              <li>
+                Calibración automática
+              </li>
+              <li>
+                Cama magnética
+              </li>
+              <li>
+                6 meses de garantía
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="masDescripcion"><b>Volumen de impresión:</b> 23x23x26cm</p>
+            <p class="masDescripcion"><b>Materiales: </b>PLA/PETG/FLEX/HIPS<br> <span class="materiales_span"></span></p>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="cuotas"><strong>SIN STOCK</strong></p>
+            <h3 class="price_new">$119.900</h3>
+            <p class="cuotas">Precio efectivo</p>
+            <br>
+            <p class="cuotas">Precio oficial: $128.293</p>
+            <p class="cuotas">Ahora 12: 12 cuotas de $16.357</p>
+            <p class="cuotas">Ahora 18: 18 cuotas de $14.255</p>
+            <p class="cuotas">Ahora 24: 24 cuotas de $12.295</p>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="#content13" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="./assets/datasheets/nebula_plus_specs.pdf" download="Hoja técnica Nebula Plus.pdf"  class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card2 col-12 col-sm-12 col-md-6 col-lg-5 offset-lg-1">
+        <div class="row">
+          <img class="nebula_card d-block d-sm-block d-md-block d-lg-none"
+            src="assets/img/nebula/Panel_Nebula_Sales.png" alt="">
+          <img class="nebula_card d-none d-sm-none d-md-none d-lg-block" src="assets/img/nebula/Specs_Panel_Sales.png"
+            alt="">
+          <div class="col-12  col-lg-5 col-xl-7 position_start position-none d-flex ">
+            <img class="nebula__img" src="assets/img/nebula/Nebula_Venta.png" alt="">
+          </div>
+          <div class="col-12 d-flex align-items-center flex-column">
+            <img class="nebula_logo nebula_logo_2" src="assets/img/nebula/Logo_Nebula.png" alt="">
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="text_nebula text_nebula_margin">
+              Nébula es ideal para principiantes que<br>
+              buscan emprender con esta tecnologia. <br>
+              Es un equipo robusto y confiable y que <br>
+              puede actualizarse a Nebula Plus.
+            </p>
+          </div>
+          <div class="col-12 d-block d-lg-none">
+            <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <ul class="list_specs list_specs_card2">
+              <li>
+                Extrusión directa
+              </li>
+              <li>
+                Cama de vidrio
+              </li>
+              <li>
+                Robustez estructural
+              </li>
+              <li>
+                Tuerca antibacklash en eje Z
+              </li>
+              <li>
+                6 meses de garantía
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <p class="masDescripcion"><b>Volumen de impresión:</b> 23x23x26cm</p>
+            <p class="masDescripcion"><b>Materiales: </b>PLA/PETG/FLEX/HIPS</p>
+          </div>
+
+          <div class="col-12 col-lg-9 offset-lg-3 offset-xl-4 col-xl-8">
+            <h3 class="price_new price_new_margin">$99.900</h3>
+            <p class="cuotas">Precio efectivo</p>
+            <br>
+            <p class="cuotas">Precio oficial: $106.893</p>
+            <p class="cuotas">Ahora 12: 12 cuotas de $13.629</p>
+            <p class="cuotas">Ahora 18: 18 cuotas de $11.687</p>
+            <p class="cuotas">Ahora 24: 24 cuotas de $10.244</p>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="#content13" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div
+            class="offset-1 col-10 offset-sm-3 col-sm-6 offset-md-3 col-md-6 col-lg-6 offset-lg-3 offset-xl-4 col-xl-6">
+            <a href="./assets/datasheets/nebula_specs.pdf" download="Hoja técnica Nebula.pdf" class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- IMAGENES -->
+      <!--  <div class="col-md-12 col-sm-12 offset-lg-1 col-lg-5 col-xl-5 offset-xl-1 d-none d-sm-block d-md-block d-lg-block d-xl-flex justify-content-center flex-column">
+        <div class="row">
+          <div class="col-12 p0">
+            <h1 class="title">
+              EMPRENDER O APRENDER. <br>
+              NÉBULA ESTÁ DISEÑADA <br>
+              ESPECIALMENTE PARA LO <br>
+              QUE DECIDAS CREAR.
+            </h1>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- CARD -->
+      <!-- <div class="d-none d-sm-block col-sm-12 d-md-block col-md-12 d-lg-block col-lg-6 d-xl-block col-xl-6" >
+        <div class="row" style="position: relative;">
+          <img class="nebula_card d-lg-none d-xl-none d-block" src="assets/img/nebulaPlus/Panel_Nebula_Plus.png" alt="">
+          <img class="nebula_card d-lg-block d-xl-block d-none" src="assets/img/nebulaPlus/Specs_Panel_Sales.png" alt="">
+          <div class="col-md-12 col-lg-12">
+            <div class="row">
+              <img class="nebula_plus_img d-lg-block d-sm-none" src="assets/img/nebula/Nebula_Venta.png" alt="">
+              <div class="col-12">
+                <img class="nebula_logo d-lg-block d-sm-none" src="assets/img/nebula/Logo_Nebula.png" alt="">
+              </div>
+
+              <div class="col-md-12 col-lg-6 d-sm-block align-items-center flex-column d-lg-none">
+                <img class="nebula_plus_img" src="assets/img/nebula/Nebula_Venta.png" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6 d-sm-block align-items-center flex-column d-lg-none">
+                <img class="nebula_logo" src="assets/img/nebula/Logo_Nebula.png" alt="">
+              </div>
+              <div class="col-12">
+                <p class="text_nebula">
+                  Nébula es ideal para principiantes que<br >
+                  buscan emprender con esta tecnologia. <br>
+                  Es un equipo robusto y confiable.
+                </p>
+              </div>
+              <div class="col-12">
+                <h3 class="especificaciones"><b>ESPECIFICACIONES:</b></h3>
+              </div>
+              <div class="col-12">
+                <ul class="list_specs">
+                  <li>
+                    Extrusión directa
+                  </li>
+                  <li>
+                    Cama de vidrio
+                  </li>
+                  <li>
+                    Robustez estructural
+                  </li>
+                  <li>
+                    Tuerca antibacklash en eje Z
+                  </li>
+                  <li>
+                    6 meses de garantía
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <p class="masDescripcion">
+                  <b>Volumen de impresión:</b>23x23x26cm <br>
+                  <b>Materiales:</b>PLA/PETG/FLEX/HIPS
+                </p>
+              </div>
+              <div class="col-md-12 col-lg-12">
+                <h3 class="price_new">$57.900</h3>
+                <p class="cuotas">Ahora 12: 12 cuotas de 15.573$</p>
+                <p class="cuotas">Ahora 18: 18 cuotas de 10.631$</p>
+                <p class="cuotas">Ahora 24: 24 cuotas de 8.410$</p>
+              </div>
+              <div class="col-md-12 col-lg-12 d-sm-flex d-flex justify-content-center">
+                <a href="#" class="link_button">
+                  <button class="buy_button btn">COMPRAR</button>
+                </a>
+              </div>
+              <div class="col-md-12 col-lg-12 d-sm-flex d-flex justify-content-center">
+                <a href="#" class="link_button">
+                  <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="content6" class="container-fluid">
+    <img class="content_chica d-xl-block d-lg-block d-md-none d-sm-none d-none"
+      src="assets/img/cosmosII/Chica_Cosmos2.jpg" alt="">
+    <div class="row justify-content-center">
+      <div class="d-none offset-xl-1 col-xl-5 d-xl-flex offset-lg-1 col-lg-4 d-lg-flex d-md-none align-items-lg-center">
+        <div class="row">
+          <div class="col-xl-12 d-lg-none d-xl-block mb-5">
+            <h1 class="bolder content_title">¿Necesitas fabricar <br> piezas industriales?</h1>
+          </div>
+          <div class="d-xl-none col-lg-12">
+            <h1 class="bolder content_title">¿Necesitas fabricar piezas industriales?</h1>
+          </div>
+
+          <div class="col-xl-5 d-lg-none d-xl-flex">
+            <div style="width: 100%; background-color: var(--blue); height: 2px;"></div>
+          </div>
+          <div class="col-xl-7 col-lg-12">
+            <p>
+              Crea profesionalmente con Cosmos II. <br>
+              Lleva adelante impresiones industriales <br>
+              en ABS, HIPS Y Nylon. Consulta antes de <br>
+              cada proyecto, qué material es el adecuado <br>
+              para cumplir con tus exigencias.
+            </p>
+            <p>
+              Cosmos II es la impresora elegida por más de <br>
+              30 Universidades y por las mejores empresas <br>
+              de América Latina.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-7 col-sm-6 position_center">
+        <img class="img_cosmos d-none d-sm-none d-md-none d-lg-none d-xl-none"
+          src="assets/img/cosmosII/WEB_CTA_Page_Cosmos.png" alt="">
+
+        <img class="img_cosmos d-none d-sm-none d-md-none d-lg-block d-xl-block"
+          src="assets/img/cosmosII/Specs_Panel_Sales.png" alt="">
+        <img class="img_cosmos d-block d-sm-block d-md-block d-lg-none d-xl-none"
+          src="assets/img/cosmosII/Panel_Cosmos2_Sales.png" alt="">
+
+        <div class="row">
+          <div class="col-12 col-lg-4 col-xl-4 position_start">
+            <img class="cosmos2_sales d-sm-block d-lg-block" src="assets/img/cosmosII/Cosmos2_Sales.png" alt="">
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <h3 class="lighter title_card">COSMOS II</h3>
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <p class="one_cosmos">
+              Cosmos II es una impresora 3D FDM <br>
+              con cámara semi cerrada, diseñada, <br>
+              desarrollada y fabricada por Trimaker. <br>
+              Ideal para empresas, instituciones <br>
+              educactivas y profesionales que buscan <br>
+              imprimir en materiales técnicos de <br>
+              manera exigente.
+            </p>
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <p
+              class="two_cosmos justify-content-center justify-content-xl-end justify-content-lg-end d-flex d-lg-block">
+              Uso continuo industrial <br>
+              Plug & Play. Lista para producir. <br>
+              Nivelación automática <br>
+              Pantalla full color <br>
+              Sensor de fin de filamento <br>
+              Cama magnética con PEI <br>
+              Drivers silenciosos <br>
+              Extrusor metálico con rancor <br>
+            </p>
+          </div>
+          <div class="col-xl-12 col-lg-12 align-items-baseline justify-content-center d-flex">
+            <p class="two_cosmos ">
+              <b>Volumen de Impresión:</b>
+            </p>
+            <p>20x20x20cm</p>
+          </div>
+          <div class="col-xl-12 col-lg-12 align-items-baseline justify-content-center d-flex ">
+            <p class="two_cosmos ">
+              <b>Materiales:</b>
+            </p>
+            <p>PLA/ABS/PETG/FLEX/<br>HIPS/NYLON</p>
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <p class=" card_currency bolder">
+              $249.500</p>
+            <!-- <span class="mb-0 card_cuotes" style="color: white;">+ IVA(10.5%)</span> -->
+            <span class="mb-0 card_cuotes" style="color: white;">Precio efectivo</span>
+            <br>
+            
+            <p class=" mb-0 card_cuotes">
+              Precio oficial: $265.965</p>
+            <p class=" mb-0 card_cuotes">
+              Ahora 12: 12 cuotas de $34.038</p>
+            <p class=" mb-0 card_cuotes">
+              Ahora 18: 18 cuotas de $29.663</p>
+            <p class=" mb-0 card_cuotes">
+              Ahora 24: 24 cuotas de $25.584</p>
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <a href="#content13" class="link_button">
+              <button class="buy_button btn">COMPRAR</button>
+            </a>
+          </div>
+          <div class="col-xl-12 col-lg-12 ">
+            <a href="./assets/datasheets/cosmosII_specs.pdf" download="Hoja técnica Cosmos II.pdf"  class="link_button">
+              <button class="hoja_tecnica btn">HOJA TÉCNICA</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- ACA -->
+  <section id="content9" class="container-fluid">
+    <div id="seccion1" class="row justify-content-center">
+      <div class="col-12">
+        <h1 class="titulo">¿PORQUÉ ELEGIR TRIMAKER?</h1>
+      </div>
+    </div>
+    <div id="seccion2" class="row justify-content-center">
+      <div class="col-12  col-lg-3 col-xl-2 ">
+        <div class="caracteristicaItem">
+          <div class="caracteristicaLineTop"></div>
+          <h4 class="caracteristicasTitulo">
+            Más de 10 años fabricando<br class="d-none d-lg-block">
+            impresoras 3D.
+          </h4>
+          <p class="caractetisticasTexto d-none d-lg-block">
+            Diseñamos, desarrollamos, <br>
+            fabricamos y comercializamos <br>
+            nuestras propias impresoras 3D. <br>
+            Apostamos a la innovación <br> 
+            y creación de tecnologia.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-xl-2 ">
+        <div class="caracteristicaItem">
+          <div class="caracteristicaLineTop"></div>
+          <h4 class="caracteristicasTitulo">
+            Cada impresora incluye<br class="d-none d-lg-block">
+            capacitación personalizada.<br class="d-block d-sm-block d-md-none d-lg-none">
+          </h4>
+          <p class="caractetisticasTexto d-none d-lg-block">
+            La impresión 3D tiene curva de<br>
+            aprendizaje. Aprende junto a <br>
+            nuestro equipo y comienza a <br>
+            EMPRENDER hoy.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-xl-2">
+        <div class="caracteristicaItem">
+          <div class="caracteristicaLineTop"></div>
+          <h4 class="caracteristicasTitulo">
+            Asesoría diaria por <br class="d-block d-lg-none">
+            WhatsApp, celular <br class="d-none d-lg-block">
+            y mail.
+          </h4>
+          <p class="caractetisticasTexto d-none d-lg-block">
+            Cada proyecto es diferente.<br>
+            Necesitas conocer tips, nuevos <br>
+            materiales y postprocesados.<br>
+            Trabaja junto a Trimaker en tu <br>
+            proyecto y llevalo al siguiente nivel.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-xl-2 ">
+        <div class="caracteristicaItem">
+          <div class="caracteristicaLineTop"></div>
+          <h4 class="caracteristicasTitulo">
+            Soporte técnico <br class="d-none d-lg-block">
+            de clase mundial.
+          </h4>
+          <p class="caractetisticasTexto d-none d-lg-block">
+            Según nuestros clientes es<br>
+            uno de los diferenciales más<br>
+            importantes de Trimaker.<br>
+            Equipo de expertos te darán <br>
+            soluciones en tu idioma y <br>
+            diariamente. <br>
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-xl-2 ">
+        <div class="caracteristicaItem">
+          <div class="caracteristicaLineTop"></div>
+          <h4 class="caracteristicasTitulo">
+            Garantía de 6 meses y repuestos <br>
+            disponibles siempre.<br>
+          </h4>
+          <p class="caractetisticasTexto d-none d-lg-block">
+            Como fabricantes de impresoras 3D contamos con todos los repuestos e insumos siempre.<br>
+            Garantía de 6 meses para que no tengas que preocuparte por nada.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="seccion3" class="row justify-content-center align-content-end mt-lg-4">
+      <div class="col-12 col-lg-12 col-xl-12 mb-xl-3">
+        <div class="caracteristicaLineTop d-block d-sm-none"></div>
+        <h3 class="envios"><b>Envíos a todo el país puerta a puerta. <br class="d-block d-sm-block d-md-none">
+            Multiples opciones de pago. <br class="d-none d-lg-block"> Ahora 12, Ahora 18, Ahora 24.</b></h3>
+        <div class="lineBlue d-none d-sm-none d-md-none d-lg-block"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="content10" class="container">
+    <div id="comentario-1">
+      <div class="row align-items-end" style="height: 10rem;">
+        <div class="col-12 justify-content-center d-flex">
+          <h1 class="comentario_titulo">TESTIMONIOS DE USUARIOS</h1>
+        </div>
+      </div>
+    </div>
+    <div id="comentario-2" class="row align-items-center">
+      <div id="carousel-comentarios" class=" owl-carousel owl-theme">
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_Solidos3D.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  "En Trimaker encontramos<br> 
+                  el partner que necesitábamos<br> 
+                  es por eso que en 2021<br> 
+                  sumamos 18 Nébulas a<br> 
+                  nuestra granja."<br> 
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@solidos3d</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_Gonza_Yanez.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  "La Nébula Plus tiene <br>
+                  una calidad de <br>
+                  impresión excelente,<br>
+                  ideal para proyectos <br>
+                  con el más exigente <br>
+                  nivel de detalle."
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@gonzayanez_art</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_Irreverelion.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  "Tengo 3 Nébulas Plus, <br>
+                  porque esta impresora <br>
+                  es una combinación <br>
+                  perfecta entre altísima <br>
+                  calidad de impresión, <br>
+                  fiabilidad y facilidad <br>
+                  de uso."
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@irrevelion</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_Gama3D.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  "Tengo 2 Nébulas plus.<br> 
+                  Su nivel de prestación compite<br>
+                  con las grandes marcas de afuera."<br>
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@print.gama.3d</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_FamiliaDDD.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  La Nébula Plus es<br>
+                  una máquina versátil<br>
+                  de fácil mantenimiento<br>
+                  y óptima calidad de impresión.<br>
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@familia_ddd</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cardComentarios sombra">
+            <div class="cardComentarios_item cardComentarios_item--5rem">
+              <img class="cardComentarios_imagen" src="assets/img/testimonios/Logo_VM3D.png" alt="">
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_estrellas">
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+                <i class="fa fa-star cardComentarios_estrellas--espacio" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--2rem">
+              <div class="cardComentarios_comentario">
+                <H5 class="cardComentarios_comentario--texto">
+                  Hoy tenemos 6 nebulas y<br>
+                  seguimos eligiendo<br>
+                  la marca por calidad,<br>
+                  servicio post venta<br>
+                  y una inmejorable<br> 
+                  atención día a día!<br>
+                </H5>
+              </div>
+            </div>
+            <div class="cardComentarios_item cardComentarios_item--positionBottom">
+              <div class="cardComentarios_instagram">
+                <h5 class="cardComentarios_instagram--texto">@vm3dimpresiones</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content11" class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="d-none d-sm-block col-lg-12">
+        <h1 class="title_confian mt5rem">EMPRESAS E INSTITUCIONES QUE CONFÍAN EN TRIMAKER</h1>
+      </div>
+      <div class="d-block col-12 d-sm-block col-lg-12">
+        <h1 class="title_confian mt5rem"><b>NUESTROS CLIENTES</b></h1>
+      </div>
+      <!-- Mobile slider -->
+
+      <div class="row d-flex d-sm-none align-items-center">
+        <div id="carousel-clientes" class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/logo_Toyota.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Arcor.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_BGH.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_BA_Ciudad.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Quilmes.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Femsa_CocaCola.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Falabella.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Globant.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Haliburton.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_H_Fernandez.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Khoinoor.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Kraft.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Motorola.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_PrintAlot.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Rasti.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/River_Plate.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Tedx.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Telefonica.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Unilever.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Unitec_Blue.png" alt="">
+          </div>
+          <div class="item">
+            <img class="imagen_confian" src="assets/img/clientes/Staples.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 d-none d-sm-block col-sm-11 sombra card_confian" style="border-radius: 20px;">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/logo_Toyota.png" alt="">
+          </div>
+          <div class="col-12 col-sm-2 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Arcor.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_BGH.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_BA_Ciudad.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Quilmes.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Femsa_CocaCola.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Falabella.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Globant.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Haliburton.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_H_Fernandez.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Khoinoor.png" alt="">
+          </div>
+
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Kraft.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Motorola.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_PrintAlot.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Rasti.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/River_Plate.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Tedx.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Telefonica.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Logo_Unilever.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Unitec_Blue.png" alt="">
+          </div>
+          <div class="col-12 col-sm-1 col-md-2 col-lg-1">
+            <img class="imagen_confian" src="assets/img/clientes/Staples.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-none d-sm-block">
+        <h1 class="title_confian">UNIVERSIDADES QUE CONFÍAN EN TRIMAKER</h1>
+      </div>
+      <div class="col-12 d-none d-sm-block col-sm-11 sombra card_confian"
+        style="border-radius: 20px; margin-bottom: 8rem;">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-2 col-lg-1 p-0 ">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UADE.png">
+          </div>
+          <div class="col-12 col-sm-2 col-lg-2 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_ORT.png">
+          </div>
+          <div class="col-12 col-sm-2 col-lg-2 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_Inti.png">
+          </div>
+          <div class="col-12 col-sm-2 col-lg-2 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_San_Martin.png">
+          </div>
+          <div class="col-12 col-sm-2 col-lg-2 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_Hurlingham.png">
+          </div>
+          <div class="col-12 col-sm-2 col-lg-2 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_Bayard.png">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_Lujan.png">
+          </div>
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UTN.png">
+          </div>
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UCSE.png">
+          </div>
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UBA.png">
+          </div>
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UNLA.png">
+          </div>
+          <div class="col-12 col-sm-1 p-0">
+            <img class="imagen_confian_2" src="assets/img/clientes/universidades/Logo_UPalermo.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="content12" class="container-fluid">
+    <div class="row d-flex align-items-center" style="height: 100%;">
+      <div class="col-12 col-md-6  col-lg-6 offset-lg-1 col-xl-6 offset-xl-1">
+        <h1 class="bolder font-4rem title_comunidad">SÉ PARTE <br> DE LA COMUNIDAD <br> OFICIAL</h1>
+        <span class="d-block d-sm-none line-blue_comunidad_mobile"></span>
+        <div class="d-flex">
+          <span class="d-none d-sm-inline-block line-blue_comunidad"></span>
+          <h2 class="centro-logros lighter d-sm-inline-block">Comparte logros, aprende con cursos, <br>
+            realiza desafios y mucho mas.</h2>
+
+        </div>
+        <div class="d-none d-sm-block somos_trimaker">
+          <img style="width: 50%;" src="assets/img/community/Somos_Trimaker_Logo.png" alt="">
+        </div>
+      </div>
+      <div class="col-12 col-sm-5 col-md-6 col-lg-5 col-xl-5 image-content">
+        <img class="community_image" src="assets/img/community/Community_Members.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="content13" class="container-fluid">
+    <div class="row  d-flex justify-content-center">
+      <div class="col-12">
+        <h2 class="contacto">CONTACTANOS</h2>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <form action="send.php" method="post">
+          <div class="form-group mb-lg-5">
+            <input type="text" class="form-control" name="nombre" id="name" placeholder="NOMBRE Y APELLIDO*" required>
+          </div>
+          <div class="form-row ">
+            <div class="col-6 mt-lg-4 pr-lg-3">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-MAIL*" required >
+              </div>
+            </div>
+            <div class="col-6 mt-lg-4 pl-lg-3">
+              <div class="form-group">
+                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="ASUNTO*" required >
+              </div>
+            </div>
+          </div>
+          <div class="form-group mt-lg-5">
+            <textarea class="form-control" name="mensaje" id="mensaje" placeholder="MENSAJE" cols="88" rows="8" ></textarea>
+          </div>
+          <div class="form-group">
+            <button class="button_submit btn" type="submit">CONTACTAR ASESOR</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <footer id="contacto" class="footer">
+    <div class="footer-widgets">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <!-- Text widget-->
+            <aside class="widget widget-text">
+              <div class="widget-title">
+                <h6>Nosotros</h6>
+              </div>
+              <div class="textwidget">
+                <p>En Trimaker diseñamos, desarrollamos y fabricamos nuestras propias impresoras desde hace 10 años.
+                  Fuimos la primera empresa en fabricar impresoras 3D en Argentina y una de las pocas en América Latina
+                  en haber desarrollado aún hoy múltiples tecnologías de
+                  impresión 3D (FDM y DLP).
+                </p>
+                <!-- <p>
+                                  Location: 12 London Avenue, Suite 18<br>
+                                  E-mail: support@theme.com<br>
+                                  Phone: 8 800 123 4567<br>
+                              </p> -->
+                <ul class="social-icons">
+                  <li><a href="https://www.instagram.com/trimaker3d/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.facebook.com/Trimaker"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/Trimaker3D"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/trimaker"><i class="fab fa-youtube"></i></a></li>
+                  <!-- <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li> -->
+                </ul>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-3">
+            <!-- Recent entries widget-->
+            <aside class="widget widget-recent-entries">
+              <div class="widget-title">
+                <h6>Contactanos</h6>
+              </div>
+              <ul>
+                <li>
+                  <a href="#">Ventas:</a>
+                  <span class="post-date">Oficina comercial: Patagones 2827, 3° piso, CABA</span>
+                  <span class="post-date">info@trimaker.com</span>
+                  <span class="post-date">11 3254-8811</span>
+
+                </li>
+                <li>
+                  <a href="#">Soporte técnico:</a>
+                  <span class="post-date">Oficina técnica: Patagones 2827, 3° piso, CABA</span>
+                  <span class="post-date">soporte@trimaker.com</span>
+                  <span class="post-date">11 5577-3812</span>
+                </li>
+                <!-- <li>
+                                  <a href="#">Warehouse:</a>
+                                  <span class="post-date">Herrera 1253 - Barracas, CABA</span>
+                              </li>
+                              <li>
+                                  <a href="#">Ingeniería</a>
+                                  <span class="post-date">Oficina: Av Córdoba 6087</span>
+                              </li> -->
+              </ul>
+            </aside>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Twitter widget-->
+            <!-- <aside class="widget twitter-feed-widget">
+                          <div class="widget-title">
+                              <h6>Twitter Feed</h6>
+                          </div>
+                          <div class="twitter-feed" data-twitter="double_theme" data-number="1"></div>
+                      </aside> -->
+
+            <!-- <div class="widget-title">
+                          <h6>I+D & warehouse</h6>
+                      </div>
+                      <ul>
+                          <li>
+                              <a href="#">Warehouse:</a>
+                              <span class="post-date">Herrera 1253 - Barracas, CABA</span>
+                          </li>
+                          <li>
+                              <a href="#">Ingeniería</a>
+                              <span class="post-date">Oficina: Av Córdoba 6087</span>
+                          </li>
+                      </ul> -->
+
+
+
+            <aside class="widget widget-recent-entries">
+              <div class="widget-title">
+                <h6>I+D &amp; warehouse</h6>
+              </div>
+              <ul>
+                <li>
+                  <a href="#">Warehouse:</a>
+                  <span class="post-date">Herrera 1253 - Barracas, CABA</span>
+                </li>
+                <li>
+                  <a href="#">Ingeniería:</a>
+                  <span class="post-date">Oficina: Patagones 2827, 3° piso, CABA</span>
+                </li>
+              </ul>
+            </aside>
+
+          </div>
+
+
+          <div class="col-md-3">
+            <!-- Recent works-->
+            <aside class="widget widget-recent-works">
+              <!-- <div class="widget-title">
+                              <h6>Portfolio</h6>
+                          </div> -->
+              <ul>
+                <h5>“Cualquier tecnología suficientemente avanzada es indistinguible de la magia”</h5>
+
+                <span class="post-date" style="font-size: 16px">Arthur C. Clarke.</span>
+                <!-- <li><a href="#"><img src="assets/images/widgets/1.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="assets/images/widgets/2.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="assets/images/widgets/3.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="assets/images/widgets/7.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="assets/images/widgets/8.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="assets/images/widgets/6.jpg" alt=""></a></li> -->
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright">
+              <p>© 2022 PALATINUM S.A. - Todos los derechos reservados - Construimos con pasión a <a
+                  href="#">Trimaker</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      let active = $(".navItem").width();
+      console.log(active);
+      $(".navItem_active").width(active + 2);
+      $(".navItem_active").css({
+        'background-color': "var(--orange)",
+        'height': "2px",
+        'margin': "0 auto",
+      });
+    });
+
+    window.addEventListener('DOMContentLoaded', function () {
+
+      var seccion1 = $("#seccion1").height();
+
+      var height = $(window).height();
+
+      $('#seccion3').height(height - seccion1 - seccion2);
+
+
+
+      /*  var titulo = $("#comentario-1").height();
+       var height = $(window).height();
+       $('#comentario-2').height(height - titulo); */
+
+      $('#carousel-comentarios').owlCarousel({
+        loop: true,
+        margin: 50,
+        stagePadding: 30,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          992: {
+            items: 3
+          },
+          1000: {
+            items: 4,
+            stagePadding: 0,
+          }
+        }
+      });
+
+      $('#carousel-clientes').owlCarousel({
+        loop: true,
+        stagePadding: 30,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          992: {
+            items: 3
+          },
+          1000: {
+            items: 4,
+            stagePadding: 0,
+          }
+        }
+      });
+      $('.owl-dots').removeClass("disabled");
+    });
+
+    let active = $(".navItem").width();
+    $(".navItem_active").width(active + 2);
+    $(".navItem_active").css({
+      'background-color': "var(--orange)",
+      'height': "3px",
+      'margin': "0 auto",
+    });
+    /* if ($(".content4_img").css("display") == "block") {
+      let content4 = $(".content4_img").height();
+      $("#content4").height(content4);
+    } */
+
+    $("#contenido_img").height(content4);
+    $("#content5_img").css("padding-top", "10rem");
+    let content5_Text = $(".content5_title_text").height();
+    $(".content5_barra_naranja").height(content5_Text - 10);
+
+    let content5_Text_mobile = $(".content5_title_text_mobile").height();
+    $(".content5_barra_naranja_mobile").height(content5_Text_mobile);
+  </script>
+</body>
+
 </html>
